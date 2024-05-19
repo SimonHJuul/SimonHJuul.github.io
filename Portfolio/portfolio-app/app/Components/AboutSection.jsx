@@ -61,7 +61,7 @@ const handleTabChange = (id) => {
                 <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
                     <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
                     <p className='text-base lg:text-lg'>
-                        Dynamic and forward-thinking professional with a Master’s degree in Game Development and Learning
+                        Dynamic and forward-thinking professional with a Mastert&apos;s degree in Game Development and Learning
                         Technology Engineering, showcasing a proven track record of creating innovative play and learning experiences. 
                         Possessing a multidisciplinary skill set that merges technology, play, and education, I excel in tackling
                         complex challenges at the intersection of these domains. With a strong foundation in game development,

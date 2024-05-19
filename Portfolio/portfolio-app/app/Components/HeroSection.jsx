@@ -39,11 +39,7 @@ const HeroSection = () => {
                 </h1>
                 <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
                 Dynamic and forward-thinking professional with a Mastert&apos;s degree in Game Development and Learning
-                Technology Engineering, showcasing a proven track record of creating innovative play and learning experiences. Possessing a multidisciplinary skill set that merges technology, play, and education, I excel in tackling
-                complex challenges at the intersection of these domains. With a strong foundation in game development,
-                coupled with practical experiences spanning from developing VR training systems to collaborating on digital
-                games for educational purposes, I am passionate about leveraging interactive play as a tool for education
-                and empowerment. Eager to contribute to teams dedicated to creating immersive and impactful play experiences for diverse audiences
+                Technology Engineering.
                 </p>
                 <div>
                     <button className='px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-third-500 via-primary-500 to-secondary-500 hover:bg-slate-200 text-white'> 
