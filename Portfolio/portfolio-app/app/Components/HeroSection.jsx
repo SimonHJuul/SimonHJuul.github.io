@@ -38,7 +38,7 @@ const HeroSection = () => {
                         />
                 </h1>
                 <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
-                Dynamic and forward-thinking professional with a Master’s degree in Game Development and Learning
+                Dynamic and forward-thinking professional with a Mastert&apos;s degree in Game Development and Learning
                 Technology Engineering, showcasing a proven track record of creating innovative play and learning experiences. Possessing a multidisciplinary skill set that merges technology, play, and education, I excel in tackling
                 complex challenges at the intersection of these domains. With a strong foundation in game development,
                 coupled with practical experiences spanning from developing VR training systems to collaborating on digital
