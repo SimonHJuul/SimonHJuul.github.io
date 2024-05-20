@@ -32,7 +32,7 @@ const TAB_DATA = [
       title: "Experience",
       id: "experience",
       content: (
-        <ul className="list-disc pl-2 ul-primary">
+        <ul className="list-disc pl-2">
           <li>Game Development</li>
           <li>User Experience Design</li>
           <li>Agile Development</li>
