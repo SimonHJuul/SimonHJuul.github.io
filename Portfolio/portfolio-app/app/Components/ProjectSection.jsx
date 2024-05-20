@@ -25,6 +25,14 @@ const projectsData = [
   },
   {
     id: 3,
+    title: "VR Training | PDP",
+    description: "Project 4 description",
+    image: "/images/projects/VRPDP.jpg",
+    tag: ["All", "Projects"],
+    previewUrl: "/",
+  },
+  {
+    id: 4,
     title: "Exoplaneten | SDU",
     description: "Project 3 description",
     image: "/images/projects/exoplaneten.jpeg",
@@ -32,7 +40,7 @@ const projectsData = [
     previewUrl: "https://www.sdu.dk/da/forskning/forskningsformidling/forskningensdoegn/tidligere/forsk2021/isaer-for-boern/onlinespil",
   },
   {
-    id: 4,
+    id: 5,
     title: "Under Overfladen | Fjord & Bælt",
     description: "Project 4 description",
     image: "/images/projects/UnderOverfladen.jpg",
@@ -40,7 +48,7 @@ const projectsData = [
     previewUrl: "https://tinyurl.com/5fpedth8",
   },
   {
-    id: 5,
+    id: 6,
     title: "Digitalt Museumsdesign 101",
     description: "This e-book serves as a guide for developers who desire to develop digital museum experiences",
     image: "/images/projects/MuseumsDesign.jpg",
@@ -48,7 +56,7 @@ const projectsData = [
     previewUrl: "https://lnkd.in/eSNRnQp6",
   },
   {
-    id: 6,
+    id: 7,
     title: "Mobile Robot Interaction",
     description: "The Impact of Speech and Movement on the Interaction with a Mobile Hand Disinfection Robot",
     image: "/images/projects/HanDiRob.jpg",
