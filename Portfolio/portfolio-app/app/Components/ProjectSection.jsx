@@ -9,57 +9,51 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
+    title: "Legoria | LEGO Games",
     description: "Project 1 description",
     image: "/images/projects/RejsenTilDetEvigeLiv.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
+    tag: ["All", "Projects"],
     previewUrl: "/",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
+    title: "Besat af Livet | Moesgaard Museum",
     description: "Project 2 description",
-    image: "/images/projects/exoplaneten.jpeg",
-    tag: ["All", "Web"],
-    gitUrl: "/",
+    image: "/images/projects/RejsenTilDetEvigeLiv.png",
+    tag: ["All", "Projects"],
     previewUrl: "/",
   },
   {
     id: 3,
-    title: "E-commerce Application",
+    title: "Exoplaneten | SDU",
     description: "Project 3 description",
-    image: "/images/projects/3.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    image: "/images/projects/exoplaneten.jpeg",
+    tag: ["All", "Projects"],
+    previewUrl: "https://www.sdu.dk/da/forskning/forskningsformidling/forskningensdoegn/tidligere/forsk2021/isaer-for-boern/onlinespil",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
+    title: "Under Overfladen | Fjord & Bælt",
     description: "Project 4 description",
-    image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
+    image: "/images/projects/UnderOverfladen.jpg",
+    tag: ["All", "Projects"],
+    previewUrl: "https://tinyurl.com/5fpedth8",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Digitalt Museumsdesign 101",
+    description: "This e-book serves as a guide for developers who desire to develop digital museum experiences",
+    image: "/images/projects/MuseumsDesign.jpg",
+    tag: ["All", "Publications"],
+    previewUrl: "https://lnkd.in/eSNRnQp6",
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Mobile Robot Interaction",
+    description: "The Impact of Speech and Movement on the Interaction with a Mobile Hand Disinfection Robot",
+    image: "/images/projects/HanDiRob.jpg",
+    tag: ["All", "Publications"],
+    previewUrl: "https://dl.acm.org/doi/abs/10.1145/3568294.3580109",
   },
 ];
 
@@ -94,13 +88,18 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
+          name="Projects"
+          isSelected={tag === "Projects"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="Publications"
+          isSelected={tag === "Publications"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Gallery"
+          isSelected={tag === "Gallery"}
         />
         </div>
         <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
@@ -117,7 +116,6 @@ const ProjectsSection = () => {
               title={project.title}
               description={project.description}
               imgUrl={project.image}
-              gitUrl={project.gitUrl}
               previewUrl={project.previewUrl}
             />
           </motion.li>

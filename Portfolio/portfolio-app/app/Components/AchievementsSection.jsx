@@ -57,6 +57,7 @@ const achievementsList = [
             );
           })}
         </div>
+        <div id="about" />
       </div>
     );
   };
