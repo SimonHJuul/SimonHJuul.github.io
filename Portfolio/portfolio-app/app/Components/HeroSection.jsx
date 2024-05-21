@@ -40,7 +40,7 @@ const HeroSection = () => {
                         />
                 </h1>
                 <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
-                Innovative professional with a Master's in Game Development and Learning Technology Engineering, specializing in creating impactful play and learning experiences through technology and education. 
+                Innovative professional with a Master&apos;s in Game Development and Learning Technology Engineering, specializing in creating impactful play and learning experiences through technology and education. 
                 Passionate about leveraging interactive play for education, with expertise in digital educational games and VR training systems.
                 </p>
                 <div>
