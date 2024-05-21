@@ -91,7 +91,7 @@ const projectsData = [
     id: 11,
     title: "Besat af Livet | Moesgaard Museum",
     description: "Usability Test in exhibition",
-    image: "/images/gallery/Momu1.jpg",
+    image: "/images/gallery/Momu1.JPG",
     tag: ["Gallery"],
     previewUrl: "https://youtu.be/6tctAC3cPnU?si=NAsF8OU0KlQc-wAU",
   },
