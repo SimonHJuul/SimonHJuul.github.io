@@ -20,7 +20,7 @@ const HeroSection = () => {
             >
                 <h1 className='text-white mb-4 text-3xl sm:text-4xl lg:text-7xl lg:leading-normal font-extrabold'>
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
-                        Hello, Im {" "}
+                        Hello, I&apos;m {" "}
                     </span>
                     <br />
                     <TypeAnimation
@@ -50,7 +50,12 @@ const HeroSection = () => {
                     </Link>
                     </button>
                     <button className='px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-third via-primary to-secondary hover:bg-slate-800 text-white  mt-3'>
-                         <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>Download CV</span>
+                         <Link 
+                          href="/CV2024.pdf"
+                          alt="alt text"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                         className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>Download CV</Link>
                     </button>
                 </div>
             </motion.div>
