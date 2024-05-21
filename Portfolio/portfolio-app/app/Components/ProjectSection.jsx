@@ -11,9 +11,9 @@ const projectsData = [
     id: 1,
     title: "Legoria | LEGO Games",
     description: "Project 1 description",
-    image: "/images/projects/RejsenTilDetEvigeLiv.png",
+    image: "/images/projects/Legoria.png",
     tag: ["All", "Projects"],
-    previewUrl: "/",
+    previewUrl: "https://youtu.be/JlKYkf6bF30?si=uVN4ldL24aGqfX62",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const projectsData = [
     description: "Project 2 description",
     image: "/images/projects/RejsenTilDetEvigeLiv.png",
     tag: ["All", "Projects"],
-    previewUrl: "/",
+    previewUrl: "https://youtu.be/6tctAC3cPnU?si=NAsF8OU0KlQc-wAU",
   },
   {
     id: 3,
@@ -88,27 +88,27 @@ const ProjectsSection = () => {
         <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
             My Projects
         </h2>
-        <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
-        <ProjectTag
-          onClick={handleTagChange}
-          name="All"
-          isSelected={tag === "All"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Projects"
-          isSelected={tag === "Projects"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Publications"
-          isSelected={tag === "Publications"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Gallery"
-          isSelected={tag === "Gallery"}
-        />
+        <div className="text-white md:flex md:flex-row grid grid-cols-2 gap-2 py-2 justify-center items-center md:gap-2 md:py-6">
+          <ProjectTag
+            onClick={handleTagChange}
+            name="All"
+            isSelected={tag === "All"}
+          />
+          <ProjectTag
+            onClick={handleTagChange}
+            name="Projects"
+            isSelected={tag === "Projects"}
+          />
+          <ProjectTag
+            onClick={handleTagChange}
+            name="Publications"
+            isSelected={tag === "Publications"}
+          />
+          <ProjectTag
+            onClick={handleTagChange}
+            name="Gallery"
+            isSelected={tag === "Gallery"}
+          />
         </div>
         <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (

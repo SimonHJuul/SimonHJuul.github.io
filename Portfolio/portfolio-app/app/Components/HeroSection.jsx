@@ -11,7 +11,7 @@ const HeroSection = () => {
   return (
     
     <section className='lg:py-16'>
-        <div className="grid grid-cols1 lg:grid-cols-12">
+        <div className="grid grid-cols-1 lg:grid-cols-12">
             <motion.div
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -40,8 +40,8 @@ const HeroSection = () => {
                         />
                 </h1>
                 <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
-                Dynamic and forward-thinking professional with a Master&apos;s degree in Game Development and Learning
-                Technology Engineering.
+                Innovative professional with a Master's in Game Development and Learning Technology Engineering, specializing in creating impactful play and learning experiences through technology and education. 
+                Passionate about leveraging interactive play for education, with expertise in digital educational games and VR training systems.
                 </p>
                 <div>
                     <button className='px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-third via-primary to-secondary hover:bg-slate-200 text-white'> 
@@ -58,7 +58,7 @@ const HeroSection = () => {
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
-            className="col-span-4 place-self-center mt-4 lg:mt-0"
+            className="col-span-4 place-self-center mt-10 lg:mt-0"
             >
                 <div className="transform w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
                     <div className='bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary to-transparent rounded-full z-0 blur-lg transform w-[250px] h-[250px] lg:w-[400px] lg:h-[400px]  '>
