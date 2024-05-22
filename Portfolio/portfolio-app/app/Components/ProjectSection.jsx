@@ -3,6 +3,7 @@ import Image from "next/image";
 import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
+import VideoPlayer from "./VideoPlayer";
 import { motion, useInView } from "framer-motion";
 
 
@@ -13,7 +14,7 @@ const projectsData = [
     description: "A game designed to empower children digitally through a fun and educational experience, where they use critical thinking to decide the fate of Legoria.",
     image: "/images/projects/Legoria.png",
     tag: ["All", "Projects"],
-    previewUrl: "https://youtu.be/JlKYkf6bF30?si=uVN4ldL24aGqfX62",
+    previewUrl: "https://drive.google.com/file/d/1qZv9n6s_m2gPhee1u3YgaZpqyW_uKTMq/view?usp=sharing",
   },
   {
     id: 2,
@@ -21,7 +22,7 @@ const projectsData = [
     description: "The game encouraged kids to explore the exhibition about the Egyptian mythology, by assigning short tasks to guide them through the exhibition.",
     image: "/images/projects/RejsenTilDetEvigeLiv.png",
     tag: ["All", "Projects"],
-    previewUrl: "https://youtu.be/6tctAC3cPnU?si=NAsF8OU0KlQc-wAU",
+    previewUrl: "https://drive.google.com/file/d/17-PFjPYiJO2QHU2IdIOd-kGMs6VL-qB0/view?usp=sharing",
   },
   {
     id: 3,
@@ -45,7 +46,7 @@ const projectsData = [
     description: "Game developed to unite the exhibitions in Fjord & Bælt, and convey information at children's level with interactive games, animations and tasks that the family can solve together.",
     image: "/images/projects/UnderOverfladen.jpg",
     tag: ["All", "Projects"],
-    previewUrl: "https://tinyurl.com/5fpedth8",
+    previewUrl: "https://drive.google.com/file/d/1sv9kyAwvo0MvxWI2qKlYNsivspEmZRJS/view?usp=sharing",
   },
   {
     id: 6,
@@ -69,7 +70,7 @@ const projectsData = [
     description: "Usability Test of POC",
     image: "/images/gallery/Legoria4.JPG",
     tag: ["Gallery"],
-    previewUrl: "https://youtu.be/JlKYkf6bF30?si=uVN4ldL24aGqfX62",
+    previewUrl: "https://drive.google.com/file/d/1qZv9n6s_m2gPhee1u3YgaZpqyW_uKTMq/view?usp=sharing",
   },
   {
     id: 9,
@@ -77,7 +78,7 @@ const projectsData = [
     description: "Usability Test of digital prototype",
     image: "/images/gallery/Legoria1.JPG",
     tag: ["Gallery"],
-    previewUrl: "https://youtu.be/JlKYkf6bF30?si=uVN4ldL24aGqfX62",
+    previewUrl: "https://drive.google.com/file/d/1qZv9n6s_m2gPhee1u3YgaZpqyW_uKTMq/view?usp=sharing",
   },
   {
     id: 10,
@@ -85,7 +86,7 @@ const projectsData = [
     description: "Usability Test of digital prototype",
     image: "/images/gallery/Legoria3.JPG",
     tag: ["Gallery"],
-    previewUrl: "https://youtu.be/JlKYkf6bF30?si=uVN4ldL24aGqfX62",
+    previewUrl: "https://drive.google.com/file/d/1qZv9n6s_m2gPhee1u3YgaZpqyW_uKTMq/view?usp=sharing",
   },
   {
     id: 11,
@@ -93,7 +94,7 @@ const projectsData = [
     description: "Usability Test in exhibition",
     image: "/images/gallery/Momu1.JPG",
     tag: ["Gallery"],
-    previewUrl: "https://youtu.be/6tctAC3cPnU?si=NAsF8OU0KlQc-wAU",
+    previewUrl: "https://drive.google.com/file/d/17-PFjPYiJO2QHU2IdIOd-kGMs6VL-qB0/view?usp=sharing",
   },
   {
     id: 12,
@@ -101,7 +102,7 @@ const projectsData = [
     description: "Usability Test of digital prototype",
     image: "/images/gallery/Momu2.jpg",
     tag: ["Gallery"],
-    previewUrl: "https://youtu.be/6tctAC3cPnU?si=NAsF8OU0KlQc-wAU",
+    previewUrl: "https://drive.google.com/file/d/17-PFjPYiJO2QHU2IdIOd-kGMs6VL-qB0/view?usp=sharing",
   },
   {
     id: 13,
@@ -109,7 +110,7 @@ const projectsData = [
     description: "Development Team",
     image: "/images/gallery/Momu3.jpg",
     tag: ["Gallery"],
-    previewUrl: "https://youtu.be/6tctAC3cPnU?si=NAsF8OU0KlQc-wAU",
+    previewUrl: "https://drive.google.com/file/d/17-PFjPYiJO2QHU2IdIOd-kGMs6VL-qB0/view?usp=sharing",
   },
   {
     id: 14,
@@ -201,7 +202,6 @@ const ProjectsSection = () => {
           </motion.li>
         ))}
       </ul>
-    
     </section>
   );
 };

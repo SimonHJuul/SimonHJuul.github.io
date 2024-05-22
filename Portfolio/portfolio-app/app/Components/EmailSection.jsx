@@ -68,7 +68,7 @@ const EmailSection = () => {
                         type="email"
                         id="email"
                         required
-                        className='bg-[#18191E] border-[#33353F] placeholder-[#9CA2A9] text-grey-100 text-sm rounded-lg blovk w-full p-2.5'
+                        className='bg-bg border-[#33353F] placeholder-[#9CA2A9] text-grey-100 text-sm rounded-lg blovk w-full p-2.5'
                         placeholder='johndoe@mail.com'
                     />
                 </div>
@@ -81,7 +81,7 @@ const EmailSection = () => {
                         type="text"
                         id="subject"
                         required
-                        className='bg-[#18191E] border-[#33353F] text-white placeholder-[#9CA2A9] text-grey-100 text-sm rounded-lg blovk w-full p-2.5'
+                        className='bg-bg border-[#33353F] text-white placeholder-[#9CA2A9] text-grey-100 text-sm rounded-lg blovk w-full p-2.5'
                         placeholder='Just saying hi'
                     />
                 </div>
@@ -93,7 +93,7 @@ const EmailSection = () => {
                         name="message"
                         id="message"
                         required
-                        className='bg-[#18191E] border-[#33353F] text-white placeholder-[#9CA2A9] text-grey-100 text-sm rounded-lg blovk w-full p-2.5'
+                        className='bg-bg border-[#33353F] text-white placeholder-[#9CA2A9] text-grey-100 text-sm rounded-lg blovk w-full p-2.5'
                         placeholder="Let's talk about..."
                     />
                 </div>
